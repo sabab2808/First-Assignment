@@ -137,7 +137,7 @@ body{
     font-family: Inter;
     font-size: 32px;
     font-weight: 600;
-    padding-top: 120px;
+    padding-top: 88px;
 }
 .para1,.para2,.para3{
     text-align: center;
@@ -148,9 +148,12 @@ body{
     border: 5px solid;
     border-style: none;
     background:linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);;
-    margin: 115px 290px;
+    margin: 115px auto;
     border-radius: 10px;
-    height: 480px;
+    height: 444px;
+    width: 100%;
+    max-width: 1320px;
+
 }
 .event-btn{
     color: #FFF;
@@ -163,7 +166,33 @@ body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
+.event-align1{
+    align-items: center;
+}
 .btn1{
     text-align: center;
-    margin-top: 180px;
+    margin-top: 60px;
+}
+.soon-mini{
+    color: #F00;
+    font-size: 27px;
+    font-family:'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    /* margin-bottom: 8px; */
+    padding: 16px 0 0 0;
+}
+.soon-main{
+    font-size: 54px;
+    font-weight: 900;
+    font-family: sans-serif;
+    margin-top:-25px;
+    /* padding: 16px 0 0 0; */
+}
+.soon-para{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-top: -25px;
 }
