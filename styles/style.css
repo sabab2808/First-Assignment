@@ -3,6 +3,10 @@ body{
     margin: 0;
     background-color: #d6e4f2;
 }
+.hover{
+    color: white;
+    transition: background-color 0.3s;
+}
 .intro-title{
     background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../Banner Image.png');
     background-size: cover;
@@ -12,7 +16,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 90%;
+    width: 100%;
     max-width: 1320px;
     height: 600px;
     margin: 30px auto;
@@ -22,11 +26,11 @@ body{
     
 } 
 .banner-sub{
-    font-size: 40px;
+    font-size: 37px;
     color: white;
-    font-weight: 400px;
+    font-weight: 100px;
     margin: 0;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .banner-main{
     font-size: 90px;
@@ -73,4 +77,93 @@ body{
     justify-content: center;
     align-items: center;
     margin-top: 0;
+}
+.midnight-party{
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url('../images/Vectorrr.png');
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    max-width: 1320px;
+    height: 620px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 30px auto;
+    margin-top: 70px;
+}
+.mid-text{
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 80px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+    margin-top: 15px;
+    margin-left: 115px;
+}
+.mid-para{
+    color: #FFF;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 50;
+    /* letter-spacing: 7.04px; */
+    margin-top: -30px;
+    margin-left: 115px;
+    margin-bottom: 40px;
+}
+.mid-btn{
+    size: 30px;
+    font-size: 20px;
+    font-weight: 650;
+    margin-left: 250px;
+    margin-top: 2px;
+    color: #FFF;
+    text-decoration: none;
+}
+.mid-extraimage{
+    width: 300px;
+    height: 450px;
+    margin-right: 150px;
+}
+.mid-partyinfo{
+    display: flex;
+    justify-content: space-between;
+}
+.mid-container{
+    margin-top: 30px;
+}
+.event-para{
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    padding-top: 120px;
+}
+.para1,.para2,.para3{
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+.event-info{
+    border: 5px solid;
+    border-style: none;
+    background:linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);;
+    margin: 115px 290px;
+    border-radius: 10px;
+    height: 480px;
+}
+.event-btn{
+    color: #FFF;
+    border: none;
+    font-weight: 700;
+    font-size: 17px;
+    background-color: #F00;
+    padding: 16px 32px;
+    border-radius: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+.btn1{
+    text-align: center;
+    margin-top: 180px;
 }
