@@ -175,14 +175,14 @@ body{
 }
 .soon-mini{
     color: #F00;
-    font-size: 27px;
+    font-size: 24px;
     font-family:'Times New Roman', Times, serif;
     text-transform: uppercase;
     /* margin-bottom: 8px; */
     padding: 16px 0 0 0;
 }
 .soon-main{
-    font-size: 54px;
+    font-size: 46px;
     font-weight: 900;
     font-family: sans-serif;
     margin-top:-25px;
@@ -195,4 +195,46 @@ body{
     font-weight: 400;
     line-height: 32px;
     margin-top: -25px;
+}
+.holiday-pic{
+    height: 365px;
+    width: 365px;
+    border: 16px solid #F00;
+    padding: 22px;
+    border-radius: 50%;
+
+}
+.year2024{
+    color: #F00;
+    font-size: 50px;
+    font-weight: 700;
+}
+.para2024{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-top: -22px;
+}
+.img2024{
+    height: 120px;
+    width: 120px;
+    border-top: 4px;
+    padding-top: 44px;
+}
+.holiday-soon{
+    padding-right: 30px;
+}
+.holiday-2024{
+    padding-left: 120px;
+    /* padding-right: 30px; */
+}
+.holiday-container{
+    display: flex;
+}
+.holiday-sale{
+    margin: 115px auto;
+    width: 100%;
+    max-width: 1320px;
 }
