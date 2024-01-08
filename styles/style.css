@@ -238,3 +238,43 @@ body{
     width: 100%;
     max-width: 1320px;
 }
+.sale-mini{
+    font-size: 24px;
+    font-family:sans-serif;
+}
+.sale-main{
+    font-size: 74px;
+    font-family:sans-serif;
+}
+.sale-para{
+    color: rgba(7, 2, 17, 0.60);
+    font-family:sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+}
+.girl-img{
+    width: 429px;
+    height: 430px;
+    border: 0;
+    align:right;
+    margin: 0;
+    border-radius: 10px;
+}
+.discount{
+    width: 207px;
+    height: 207px;
+    padding: 8px;
+    margin-bottom: 0;
+}
+.giftbox{
+    height: 300px;
+    
+}
+.sale-img{
+    display: flex;
+}
+.redline{
+    height: 229px;
+    margin: 0;
+}
