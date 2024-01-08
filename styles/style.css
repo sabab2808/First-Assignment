@@ -1,0 +1,44 @@
+body{
+    font-family:'Lato', sans-serif;
+    margin: 0;
+    background-color: rgb(212, 231, 244);
+}
+.intro-title{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../Banner Image.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center ; /* Image centered and positioned at the top */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    max-width: 1320px;
+    height: 600px;
+    margin: 30px auto;
+    padding-top: 25px; /* Padding on top */
+    text-align: center;
+    border-radius: 20px;
+    
+} 
+.header{
+    
+}
+.banner-sub{
+    font-size: 40px;
+    color: white;
+    font-weight: 400px;
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.banner-main{
+    font-size: 90px;
+    color: white;
+    font-weight: 1000px;
+    margin: 0;
+    padding-top: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.banner-title{
+    gap: 5px;
+}
