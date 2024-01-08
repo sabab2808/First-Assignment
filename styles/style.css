@@ -234,17 +234,21 @@ body{
     display: flex;
 }
 .holiday-sale{
-    margin: 115px auto;
+    margin: 140px auto;
     width: 100%;
     max-width: 1320px;
 }
 .sale-mini{
     font-size: 24px;
     font-family:sans-serif;
+    font-weight: 600;
+    padding-top: 20px;
 }
 .sale-main{
     font-size: 74px;
     font-family:sans-serif;
+    font-weight: 900;
+    font-stretch: normal;
 }
 .sale-para{
     color: rgba(7, 2, 17, 0.60);
@@ -252,29 +256,89 @@ body{
     font-size: 20px;
     font-weight: 500;
     line-height: 32px;
+    padding-bottom: 0px;
 }
-.girl-img{
-    width: 429px;
-    height: 430px;
-    border: 0;
-    align:right;
-    margin: 0;
-    border-radius: 10px;
-}
+
 .discount{
-    width: 207px;
-    height: 207px;
-    padding: 8px;
-    margin-bottom: 0;
+    width: 262px;
+    height: 260px;
+    padding: 110px 0 0 130px;
 }
 .giftbox{
-    height: 300px;
-    
+    height: 520px;
+    padding-top: 150px;
 }
 .sale-img{
     display: flex;
 }
-.redline{
-    height: 229px;
+
+.sale-info ,.sale-main,.sale-mini,.sale-para{
+    text-align: center;
+    margin-top: 0;
+    margin: 18px;
+}
+.sale-container{
+    background-image: url('../images/Rectangle\ 2.png'),url('../images/Rectangle\ 1.png');
+    background-repeat: no-repeat;
+    background-position: bottom ,center right;
+    margin-bottom: 80px;
+    opacity: 90%;
+}
+.port-img{
+    width: 415px;
+    height: 430px;
+    border-radius: 15px;
+    display: flex;
+}
+.portfolio{
+    margin: 140px auto;
+    width: 100%;
+    max-width: 1320px;
+}
+.port-mini{
+    font-size: 24px;
+    font-family:sans-serif;
+    font-weight: 600;
+    padding-top: 20px;
+    color: #F00;
+}
+.port-main{
+    font-size: 74px;
+    font-family:sans-serif;
+    font-weight: 900;
+}
+.port-para{
+    color: rgba(7, 2, 17, 0.60);
+    font-family:sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 32px;
+    padding-bottom: 35px;
+}
+.port-main,.port-mini,.port-para{
+    margin: 18px;
+    margin-left: 0;
+}
+.img1{
+    margin: 10px;
+    margin-left: 0;
+}
+.img2{
+    margin: 10px 10px 10px 0;
+}
+.img3{
+    margin: 10px 0 10px 0;
+}
+.img4{
+    margin: 0 10px 0 0;
+}
+.img5{
+    margin-right: 10px;
+}
+.img6{
     margin: 0;
+}
+.portfolio .img1 .img2 .img3 .img4 .img5 .img6{
+    width: 424px;
+    height: 450px;
 }
