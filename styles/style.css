@@ -1,13 +1,13 @@
 body{
     font-family:'Lato', sans-serif;
     margin: 0;
-    background-color: rgb(212, 231, 244);
+    background-color: #d6e4f2;
 }
 .intro-title{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../Banner Image.png');
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../Banner Image.png');
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center ; /* Image centered and positioned at the top */
+    background-position: center ;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -16,14 +16,11 @@ body{
     max-width: 1320px;
     height: 600px;
     margin: 30px auto;
-    padding-top: 25px; /* Padding on top */
+    padding-top: 25px;
     text-align: center;
     border-radius: 20px;
     
 } 
-.header{
-    
-}
 .banner-sub{
     font-size: 40px;
     color: white;
@@ -39,6 +36,41 @@ body{
     padding-top: 20px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
-.banner-title{
-    gap: 5px;
+.offer-heading{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 96px;
+    font-weight: 700;
+}
+.offer-para{
+    padding-top: 0;
+    margin-top: 10px;
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 600;
+    padding-bottom: 0;
+    margin-bottom: 5px;
+}
+.offer-heading2{
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 53px;
+    font-weight: 900;
+    margin-top: 10px;
+    padding-top: 0;
+}
+.offer-image{
+    width: 820px;
+    height: 510px;
+}
+.offer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
 }
