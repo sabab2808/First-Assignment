@@ -320,39 +320,57 @@ body{
 .img1{
     margin: 11px;
     margin-left: 0;
+    background: transparent;
+    transition: transform 0.3s ease-in-out;
 }
 .img1:hover{
     background-color: yellow;
+    transform: scale(1.1);
 }
 .img2{
     margin: 12px 12px 10px 0;
+    background: transparent;
+    transition: transform 0.3s ease-in-out;
 }
 .img2:hover{
     background-color: yellow;
+    transform: scale(1.1);
 }
 .img3{
     margin: 12px 0 12px 0;
+    background: transparent;
+    transition: transform 0.3s ease-in-out;
 }
 .img3:hover{
     background-color: yellow;
+    transform: scale(1.1);
 }
 .img4{
     margin: 0 12px 0 0;
+    background: transparent;
+    transition: transform 0.3s ease-in-out;
 }
 .img4:hover{
     background-color: yellow;
+    transform: scale(1.1);
 }
 .img5{
     margin-right: 12px;
+    background: transparent;
+    transition: transform 0.3s ease-in-out;
 }
 .img5:hover{
     background-color: yellow;
+    transform: scale(1.1);
 }
 .img6{
     margin: 0;
+    background: transparent;
+    transition: transform 0.3s ease-in-out;
 }
 .img6:hover{
     background-color: yellow;
+    transform: scale(1.1);
 }
 .portfolio .img1 .img2 .img3 .img4 .img5 .img6{
     width: 424px;
@@ -391,6 +409,10 @@ body{
     font-size: 17px;
     border-radius: 0 50px 50px 0;
     border-style: none;
+    transition: transform 0.3s ease-in-out;
+}
+.subscribe-btn:hover{
+    transform: scale(1.1);
 }
 .last-img{
     width: 100px;
@@ -458,6 +480,11 @@ hr {
     background: none;
     color: #FFF;
     border: none;
+    background: transparent;
+    transition: transform 0.3s ease-in-out;
+}
+.unsub:hover{
+    transform: scale(1.1);
 }
 .final{
     display: flex;
