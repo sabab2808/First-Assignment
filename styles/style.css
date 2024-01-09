@@ -162,6 +162,7 @@ body{
     border-radius: 5px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
+    transition: transform 0.3s ease-in-out;
 }
 .event-align1{
     align-items: center;
@@ -483,7 +484,7 @@ hr {
     background: transparent;
     transition: transform 0.3s ease-in-out;
 }
-.unsub:hover{
+.unsub:hover, .event-btn:hover{
     transform: scale(1.1);
 }
 .final{
