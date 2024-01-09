@@ -262,7 +262,7 @@ body{
 .discount{
     width: 262px;
     height: 260px;
-    padding: 110px 0 0 130px;
+    padding: 170px 0 0 130px;
 }
 .giftbox{
     height: 520px;
@@ -280,8 +280,9 @@ body{
 .sale-container{
     background-image: url('../images/Rectangle\ 2.png'),url('../images/Rectangle\ 1.png');
     background-repeat: no-repeat;
-    background-position: bottom ,center right;
-    margin-bottom: 80px;
+    background-position: absolute;
+    background-position: bottom,894px 350px;
+    margin-bottom: 00px;
     opacity: 90%;
 }
 .port-img{
